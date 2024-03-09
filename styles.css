@@ -214,6 +214,7 @@ i {
 .page3children {
   display: flex;
   width: 50%;
+  font-size: 1.3rem;
   align-items: center;
   justify-content: center;
   gap: 2rem;
@@ -230,7 +231,7 @@ i {
 .contactSubmit {
   display: inline-block;
   border-radius: 10px;
-  font-size: 2rem;
+  font-size: 1rem;
   transition: 0.3s;
   color: black;
 }
@@ -373,7 +374,7 @@ footer {
   }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 900px) {
   #home {
     width: 100%;
     flex-direction: column;
@@ -451,7 +452,7 @@ footer {
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 380px) {
   #logo {
     width: 80vw;
     height: 10rem;
@@ -495,6 +496,7 @@ footer {
   }
   .page3children {
     width: 100%;
+    font-size: 0.34rem;
   }
   .page3children-right {
     height: 100%;
@@ -502,6 +504,7 @@ footer {
     width: 100%;
     gap: 0.3rem;
   }
+
   .page3children-right button {
     padding: 0.6rem;
     font-size: 0.8rem;
