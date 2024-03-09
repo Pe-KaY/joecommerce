@@ -352,7 +352,34 @@ footer {
   background-color: rgb(10, 3, 38);
 }
 
+/* BTC ANIMATION*/
+#bitcoin {
+  width: 360px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  display: none;
+}
+#btc {
+  height: 4rem;
+  display: inline-block;
+  animation: btc;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
 /* Animations*/
+@keyframes btc {
+  from {
+    transform: translateX(-15px);
+  }
+  to {
+    transform: translateX(350px);
+  }
+}
 @keyframes entranceright {
   from {
     transform: translateX(-10rem);
@@ -496,7 +523,7 @@ footer {
   }
   .page3children {
     width: 100%;
-    font-size: 0.34rem;
+    font-size: 0.45rem;
   }
   .page3children-right {
     height: 100%;
@@ -598,6 +625,10 @@ footer {
   }
   .contacts p {
     font-size: 0.6rem !important;
+  }
+
+  #bitcoin {
+    display: block;
   }
 }
 
