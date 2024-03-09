@@ -552,10 +552,11 @@ footer {
   .contacts p {
     font-size: 0.66rem !important;
   }
-  footer {
+  #footer {
     font-size: 0.7rem;
     text-align: center;
   }
+
   .discover,
   .contactSubmit {
     display: inline-block;
